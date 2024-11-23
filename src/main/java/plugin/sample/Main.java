@@ -73,7 +73,7 @@ public final class Main extends JavaPlugin implements Listener {
               .with(Type.BALL_LARGE)
               .withFlicker()
               .build());
-      fireworkMeta.setPower(1 + 3 * 2 - 5);
+      fireworkMeta.setPower(1 + 3 * 2 - 6);
 
       // 追加した情報で再設定する。
       firework.setFireworkMeta(fireworkMeta);
